@@ -1,7 +1,7 @@
 {
   "name": "filt",
   "version": "0.0.3",
-  "description": "filt is for simple filters",
+  "description": "filt is for simple filters: node -e 'require(\"filt\")(line => line.toUpperCase())'",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
