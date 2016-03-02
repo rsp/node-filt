@@ -2,5 +2,5 @@
 
 # in your code use require('filt') instead of require('.')
 
-node -e 'require(\".\")(line => line.toUpperCase())'
+node -e 'require(".")(line => line.toUpperCase())'
 
