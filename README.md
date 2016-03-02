@@ -11,8 +11,8 @@ on standard output.
 Known problems
 --------------
 It prints an extra newline at the end - the split module used internally
-is apparently with an extra empty line at the end when there is none
-- I need to fix it.
+is apparently running the callback with an extra empty line at the end
+when there is none - I need to fix it.
 
 Installation
 ------------
