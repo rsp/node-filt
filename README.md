@@ -32,6 +32,32 @@ filt(function (line) {
 });
 ```
 
+Instead of calling `console.log()` you can also return a line to print:
+
+```js
+filt(function (line) {
+    return line.toUpperCase();
+});
+```
+
+The same using ES6 syntax:
+
+```js
+filt(line => line.toUpperCase());
+```
+
+Using require in the same line - this is the entire program:
+
+```js
+require('filt')(line => line.toUpperCase());
+```
+
+Or straight from the command line:
+
+```sh
+node -e 'require("filt")(line => line.toUpperCase());'
+```
+
 Issues
 ------
 For any bug reports or feature requests please
