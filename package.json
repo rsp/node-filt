@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/rsp/node-filt/issues"
   },
-  "homepage": "https://github.com/rsp/node-filt#readme"
+  "homepage": "https://github.com/rsp/node-filt#readme",
+  "dependencies": {
+    "split": "^1.0.0"
+  }
 }
