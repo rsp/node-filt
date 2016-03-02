@@ -1,6 +1,7 @@
 node filt
 =========
 filt is for simple filters:
+
 `node -e 'require("filt")(line => line.toUpperCase())'`
 
 This module allows you to quickly write command-line filters -
