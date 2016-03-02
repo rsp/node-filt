@@ -1,10 +1,16 @@
 node filt
 =========
-filt is for simple filters
+filt is for simple filters: node -e 'require(\"filt\")(line => line.toUpperCase())'
 
 This module allows you to quickly write command-line filters -
 programs that read standard input line by line and print something
 on standard output.
+
+Known problems
+--------------
+It prints an extra newline at the end - the split module used internally
+is apparently with an extra empty line at the end when there is none
+- I need to fix it.
 
 Installation
 ------------
