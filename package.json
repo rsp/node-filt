@@ -1,6 +1,6 @@
 {
   "name": "filt",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "filt is for simple filters: node -e 'require(\"filt\")(line => line.toUpperCase())'",
   "main": "index.js",
   "scripts": {
