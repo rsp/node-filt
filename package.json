@@ -1,0 +1,22 @@
+{
+  "name": "filt",
+  "version": "0.0.0",
+  "description": "filt is for simple filters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsp/node-filt.git"
+  },
+  "keywords": [
+    "filter"
+  ],
+  "author": "Rafał Pocztarski <r.pocztarski@gmail.com> (https://rsp.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsp/node-filt/issues"
+  },
+  "homepage": "https://github.com/rsp/node-filt#readme"
+}
